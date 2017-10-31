@@ -120,11 +120,31 @@
 	      </td>
 	      <td width="75%" valign="top">
 		<p>
-                  <b>Markov Decision Processes with Continuous Side Information</b><br>
+                  <b>Markov Decision Processes with Continuous Side Information</b><br><br>
                   <strong>Aditya Modi</strong>, <a href="https://sites.google.com/a/umich.edu/nanjiang/">Nan Jiang</a>, 
                   <a href="http://web.eecs.umich.edu/~baveja/">Satinder Singh</a>, <a href="https://ambujtewari.github.io/">Ambuj Tewari</a> <br>
                   <i>Under review</i><br> 
-                  <a href="coming soon">[paper]</a>
+                  <a href="coming soon">[paper]</a>&nbsp;|&nbsp;
+                  <a href="javascript:toggleblock('CMDP_abs')">abstract</a>
+                  <p align="justify">
+                    <i id="CMDP_abs">
+                      We consider a reinforcement learning (RL) setting in which the agent interacts with a 
+                      sequence of episodic MDPs. At the start of each episode the agent has access to some 
+                      side-information or context that determines the dynamics of the MDP for that episode. 
+                      Our setting is motivated by applications in healthcare where baseline measurements of a 
+                      patient at the start of a treatment episode form the context that may provide information 
+                      about how the patient might respond to treatment decisions.<br>
+                      We propose algorithms for learning in such Contextual Markov Decision Processes 
+                      (CMDPs) under an assumption that the unobserved MDP parameters vary smoothly with 
+                      the observed context. We also give lower and upper PAC bounds under the smoothness 
+                      assumption. Because our lower bound has an exponential dependence on the dimension, we 
+                      consider a tractable linear setting where the context is used to create linear combinations 
+                      of a finite set of MDPs. For the linear setting, we give a PAC learning algorithm based on 
+                      KWIK learning techniques.
+                    </i>
+                  </p>
+                  <br>
+                  <p></p>
 		</p>
 	      </td>
 	    </tr>
