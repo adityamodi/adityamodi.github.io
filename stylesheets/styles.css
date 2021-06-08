@@ -1,13 +1,14 @@
 body {
-  background-color: #fff;
+  /*background-color: #1F1D26;*/
+  background-color: #242129;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#F3F2F5;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#E3DFEE;
   margin:0 0 20px;
 }
 
@@ -25,22 +26,22 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#E3DFEE;
   font-weight: 500;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#E3DFEE;
   font-weight: 500;
 }
 
 a {
-  color:#39c;
+  color:#89BCF5;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#E3DFEE;
 }
 
 a small {
@@ -138,7 +139,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#E3DFEE;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -146,7 +147,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#E3DFEE;
 }
 
 header ul a:active {
@@ -154,7 +155,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#B3D0F0;
   font-weight:500;
 }
 
@@ -166,7 +167,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#E3DFEE;
 }
 
 section {
